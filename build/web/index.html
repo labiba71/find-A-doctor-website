@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>FIND A DOCTOR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	</head>
+    <body>
+	<div class="header">
+            <form action="SearchServlet" role="form" method="post">
+		<h1>Find A <span>Doctor</span></h1>
+		<div class="form-box">
+                    <input class="search-city" name="location" type="text" id="loc"
+                    placeholder="search cities"/>
+                    <input class="search-doc-hos" name="doctorhospital" type="text" id="looking-for"
+                    placeholder="I'm looking for[doctor/hospital]"/>
+                    <input class="search-speciality" name="specialityOrName" type="text" id="search-speciality"
+                    placeholder="Search by doctor name,speciality,symptom or disease"/>
+                    <button type="submit" class="search-btn" name="searchButton">Search</button>
+		</div>
+            </form>
+	</div>
+	<div class="middle">
+            <div class="fas fa-heart" ></div>
+            <div class="fas fa-tooth"></div>
+            <div class="fas fa-pills"></div>
+            <div class="fas fa-allergies"></div>
+	</div>
+
+
+
+</body>
+</html>
